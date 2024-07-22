@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    opacity: 0.9;
+    
+
+}
+header {
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    position: fixed;
+    padding: 0 10px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    background-color: black;
+    
+}
+.logo {
+    height: 50px;
+}
+
+ul {
+    padding-right: 10px;
+    display: flex;
+    min-width: 350px;
+    list-style-type: none;
+    justify-content: space-around;
+    
+}
+
+a{
+    color: seashell;
+}
+
+.mission {
+    margin-top: 69px;
+    width: 1200px;
+    height: 700px;
+    align-content: center;
+    background-image: url(img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+}
+.missionText{
+    background-color: black;
+    padding: 15px 10px;
+    align-content: center;
+}
+
+h4{
+    padding:10px 0px;
+}
+
+#sections{
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+    
+}
+
+.teaMonth {
+    margin: 20px 0px; 
+    max-width: 1000px;  
+    opacity: 0.9;  
+}
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.teas {
+    max-width: 300px;
+    margin: 10px;
+    
+}
+
+.teas img {
+    width: 100%; /* Makes the image's width fill the container */
+    height: auto; /* Keeps the image's aspect ratio intact */
+    
+}
+
+.locations {
+    background-image: url(img-locations-background.jpg);
+    background-position: center;
+    min-height: 500px;
+    width: 1200px;  
+    display: flex; 
+    justify-content: center;
+    flex-flow: column;
+    
+}
+.location {
+    margin: 15px 20px;
+    width: 300px;
+    min-height: 300px;
+    background-color: black;
+    text-align: center;
+    opacity: 1;
+    align-content: center;
+    flex-flow: row;
+    
+
+}
+
+.contact {
+    box-sizing: border-box;
+    padding: 30px 10px;
+    min-height: 200px;
+    opacity: 0.9;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    
+}
+footer {
+    opacity: 0.9;
+    text-align: left;
+    padding-left: 20px;
+
+}
